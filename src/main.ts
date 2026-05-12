@@ -22,96 +22,66 @@ const images = mediaItems.filter((item): item is MediaItem => item.type === 'ima
 
 const letterSteps: LetterStep[] = [
   {
-    title: 'Querida Mãezinha Adriana',
+    title: 'Carta para Adriana',
     photo: 4,
-    caption: 'Um carinho que ficou marcado.',
+    caption: 'Lembrança desta parte da carta.',
     text: [
-      'Feliz Dia das Mães! Quero aproveitar este dia especial para celebrar a mulher extraordinária que você é e desejar que o Senhor continue abençoando a sua vida com muita saúde, segurança e a companhia constante do Espírito Santo.',
-      'Que todos os seus planos e desejos justos se realizem.',
+      'Feliz Dia das Mães, Querida Mãezinha Adriana!',
+      'Quero aproveitar este dia especial para celebrar a mulher extraordinária que você é e desejar que o Senhor continue abençoando a sua vida com muita saúde, segurança e a companhia constante do Espírito Santo. Que todos os seus planos e desejos justos se realizem. Admiro profundamente a sua sabedoria, a sua mente brilhante e a forma inspiradora com que você vive o evangelho. Você possui um dom raro: consegue unir uma inteligência admirável a um coração materno gigantesco, enxergando além das aparências e amando as pessoas com o puro amor de Cristo. É essa sua essência luminosa e dedicada que abençoa todos ao seu redor e que me inspira profundamente.',
     ],
   },
   {
-    title: 'Uma luz admirável',
-    photo: 5,
-    caption: 'A sabedoria que acolhe e ilumina.',
-    text: [
-      'Admiro profundamente a sua sabedoria, a sua mente brilhante e a forma inspiradora com que você vive o evangelho.',
-      'Você possui um dom raro: consegue unir uma inteligência admirável a um coração materno gigantesco, enxergando além das aparências e amando as pessoas com o puro amor de Cristo.',
-      'É essa sua essência luminosa e dedicada que abençoa todos ao seu redor e que me inspira profundamente.',
-    ],
-  },
-  {
-    title: 'Quando cheguei a São Paulo',
+    title: 'Carta para Adriana',
     photo: 2,
-    caption: 'Sob o teto de vocês, eu encontrei família.',
+    caption: 'Lembrança desta parte da carta.',
     text: [
-      'Neste dia santo e especial, ao refletir sobre a minha jornada, minha gratidão transborda.',
-      'Quando cheguei a São Paulo, deparei-me com incertezas e desafios que pareciam maiores do que eu poderia suportar.',
-      'Lidar com o divórcio, o desemprego e tantas outras lutas estava sendo exaustivo, mas sob o teto de vocês encontrei muito mais do que um abrigo: fui recebido com o verdadeiro amor.',
+      'Neste dia santo e especial, ao refletir sobre a minha jornada, minha gratidão transborda. Quando cheguei a São Paulo, deparei-me com incertezas e desafios que pareciam maiores do que eu poderia suportar. Lidar com o divórcio, o desemprego e tantas outras lutas estava sendo exaustivo, mas sob o teto de vocês encontrei muito mais do que um abrigo: fui recebido com o verdadeiro amor. Ter você e o Nelson como grandes pilares, e ganhar o Rafael e o João como irmãos, fez com que esse acolhimento genuíno formasse uma verdadeira família, que me abraçou quando eu mais precisava de direção.',
     ],
   },
   {
-    title: 'Uma família que me abraçou',
-    photo: 3,
-    caption: 'Nelson, Rafael e João também se tornaram parte desse abraço.',
-    text: [
-      'Ter você e o Nelson como grandes pilares, e ganhar o Rafael e o João como irmãos, fez com que esse acolhimento genuíno formasse uma verdadeira família, que me abraçou quando eu mais precisava de direção.',
-    ],
-  },
-  {
-    title: 'Clareza para enxergar o futuro',
+    title: 'Carta para Adriana',
     photo: 1,
-    caption: 'Conversas, conselhos e uma mesa onde a vida voltava a fazer sentido.',
+    caption: 'Lembrança desta parte da carta.',
     text: [
-      'Mais do que me acolher, você me ofereceu a sua visão de mundo.',
-      'Foram as suas observações precisas, como mãe e como profissional, unidas à sabedoria do Nelson, que me trouxeram a clareza que há muito me faltava.',
-      'Vocês não apenas me ajudaram a compreender a minha história e a organizar meus pensamentos, mas me devolveram a capacidade de enxergar o futuro. Onde havia escuridão, vocês acenderam uma luz.',
+      'Mais do que me acolher, você me ofereceu a sua visão de mundo. Foram as suas observações precisas, como mãe e como profissional, unidas à sabedoria do Nelson, que me trouxeram a clareza que há muito me faltava. Vocês não apenas me ajudaram a compreender a minha história e a organizar meus pensamentos, mas me devolveram a capacidade de enxergar o futuro. Onde havia escuridão, vocês acenderam uma luz.',
     ],
   },
   {
-    title: 'Um ponto de virada',
+    title: 'Carta para Adriana',
     photo: 0,
-    caption: 'Bondade prática, dessas que mudam o rumo de uma vida.',
+    caption: 'Lembrança desta parte da carta.',
     text: [
-      'Ainda estou no processo de transformação, mas o ponto de virada que Deus me deu para mudar a minha vida veio através da bondade de vocês.',
-      'Não é por acaso que recebem os carinhosos títulos de mãezinha e paizinho.',
-      'Como o Élder Jeffrey R. Holland ensinou, não há amor na mortalidade que se aproxime mais do puro amor de Jesus Cristo do que o amor de uma mãe.',
-      'E é exatamente esse amor compassivo e ativo que você exala na prática e que transborda para toda a família.',
+      'Ainda estou no processo de transformação, mas o ponto de virada que Deus me deu para mudar a minha vida veio através da bondade de vocês. Não é por acaso que recebem os carinhosos títulos de mãezinha e paizinho. Como o Élder Jeffrey R. Holland ensinou, não há amor na mortalidade que se aproxime mais do puro amor de Jesus Cristo do que o amor de uma mãe. E é exatamente esse amor compassivo e ativo que você exala na prática e que transborda para toda a família.',
     ],
   },
   {
-    title: 'A paz para recomeçar',
+    title: 'Carta para Adriana',
     photo: 6,
-    caption: 'A paz de um lar também constrói futuro.',
+    caption: 'Lembrança desta parte da carta.',
     text: [
-      'Se hoje exerço a profissão que almejei e conquistei essa nova carreira, é porque o ambiente de paz e incentivo que você e o Nelson cultivam me ofereceu a estrutura para sentar, estudar e transformar o meu futuro.',
-      'Sinto muita falta das nossas conversas interessantíssimas; sua inteligência, suas ideias e sua perspectiva de vida sempre expandiram a minha visão.',
-      'Vocês acreditaram no meu potencial quando eu mesmo ainda tentava entendê-lo.',
+      'Se hoje exerço a profissão que almejei e conquistei essa nova carreira, é porque o ambiente de paz e incentivo que você e o Nelson cultivam me ofereceu a estrutura para sentar, estudar e transformar o meu futuro. Sinto muita falta das nossas conversas interessantíssimas; sua inteligência, suas ideias e sua perspectiva de vida sempre expandiram a minha visão. Vocês acreditaram no meu potencial quando eu mesmo ainda tentava entendê-lo.',
     ],
   },
   {
-    title: 'Evangelho, Templo e lar',
+    title: 'Carta para Adriana',
     photo: 2,
-    caption: 'Um lar elevado pela fé e pelo serviço.',
+    caption: 'Lembrança desta parte da carta.',
     text: [
-      'Seu profundo amor pelo evangelho e pelo Templo é uma das qualidades que mais admiro.',
-      'Ter o privilégio de desfrutar do Templo e do Instituto a poucos passos de distância não era apenas uma facilidade geográfica, mas o reflexo da elevação espiritual que você e o Nelson estabeleceram e lideram dentro do lar.',
+      'Seu profundo amor pelo evangelho e pelo Templo é uma das qualidades que mais admiro. Ter o privilégio de desfrutar do Templo e do Instituto a poucos passos de distância não era apenas uma facilidade geográfica, mas o reflexo da elevação espiritual que você e o Nelson estabeleceram e lideram dentro do lar.',
     ],
   },
   {
-    title: 'O legado no João',
+    title: 'Carta para Adriana',
     photo: 3,
-    caption: 'A força de uma família aparece nos frutos que ela oferece a Deus.',
+    caption: 'Lembrança desta parte da carta.',
     text: [
-      'E, por falar em propósito sagrado, meu coração se enche de alegria e do Espírito Santo sempre que falo com o João.',
-      'Vê-lo hoje servindo na mesma São Paulo Interlagos que tanto marcou a minha própria missão é a prova viva do legado de retidão que você construiu.',
-      'A excelência do missionário que ele é reflete os pais extraordinários que o criaram.',
+      'E, por falar em propósito sagrado, meu coração se enche de alegria e do Espírito Santo sempre que falo com o João. Vê-lo hoje servindo na mesma São Paulo Interlagos que tanto marcou a minha própria missão é a prova viva do legado de retidão que você construiu. A excelência do missionário que ele é reflete os pais extraordinários que o criaram.',
     ],
   },
   {
-    title: 'Com amor e admiração',
+    title: 'Carta para Adriana',
     photo: 4,
-    caption: 'Obrigado por me amar com cuidado de verdadeira mãe.',
+    caption: 'Lembrança desta parte da carta.',
     text: [
       'Mãezinha, sua generosidade, sua paciência e a sua mente brilhante consagrada a Deus são sementes que vejo germinar em mim todos os dias.',
       'Obrigado por ser uma inspiração contínua, pelos conselhos preciosos e por me amar com o cuidado de uma verdadeira mãe.',
@@ -369,8 +339,8 @@ const renderClosing = () => {
         </div>
         <div class="closing-message">
           <p class="eyebrow">Com todo amor</p>
-          <h1>Obrigado, Mãezinha Adriana</h1>
-          <p>Que o Senhor continue abençoando sua vida, sua casa e todos os frutos do amor que você plantou.</p>
+          <h1>Com todo o meu amor e profunda admiração</h1>
+          <p>William</p>
           <div class="letter-actions">
             <button type="button" data-action="review-letter">Rever carta</button>
             <button class="ghost" type="button" data-action="restart">Voltar ao começo</button>
